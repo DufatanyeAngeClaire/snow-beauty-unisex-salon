@@ -1,0 +1,59 @@
+*{
+    border-radius: 3px;
+    margin: 1%;
+}
+nav{
+   
+    background-color:rgb(170, 32, 170);
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+ul{
+    list-style:none;
+    justify-content: space-between;
+    display: flex;
+    text-decoration: solid;
+}
+.well{
+     width: 95%; 
+     height: 30%;
+     padding: 20px;
+   
+}
+.welcome{
+    background-color: whitesmoke;
+    text-align: center,
+}
+h1{
+    text-align: center;
+}
+.app{
+    background-color: rgb(170, 32, 170);    
+}
+.snow{
+    background-color: whitesmoke;
+    text-align: center;
+}
+button{
+    background-color: rgb(170, 32, 170);
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+footer{
+    background-color: rgb(170, 32, 170);
+    width: 100%;
+    margin: 10px;
+}
+.footer{
+    text-align: center; 
+    color: white;
+    font-size: 50px;
+    margin-right: 23px;
+margin-inline-start: 0%;
+
+}
