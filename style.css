@@ -1,55 +1,87 @@
 *{
-    border-radius: 3px;
-    margin: 1%;
+     border-radius: 5px;
 }
-nav{
-   
-    background-color:rgb(170, 32, 170);
+nav {
+    padding: 8px;
+    background-color:rgb(17, 17, 17);
 }
-a{
+a {
     color: white;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
 }
-ul{
-    list-style:none;
+ul {
+    list-style: none;
     justify-content: space-between;
     display: flex;
     text-decoration: solid;
 }
-.well{
-     width: 95%; 
-     height: 30%;
-     padding: 20px;
-   
+.well {
+    width: 95%;
+    height: 30%;
+    padding: 20px;
 }
-.welcome{
+.welcome {
+    margin-top: 30px;
+    padding: 20px;
     background-color: whitesmoke;
     text-align: center,
 }
-h1{
-    text-align: center;
+.welcome-text {
+    font-size: 20px;
 }
-.app{
-    background-color: rgb(170, 32, 170);    
+.app {
+    margin-top: 30px;
 }
-.snow{
+.download-btn {
+    background-color: rgb(170, 32, 170);
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.snow {
     background-color: whitesmoke;
     text-align: center;
+    padding: 20px;
+    margin-top: 30px;
 }
-button{
+button {
     background-color: rgb(170, 32, 170);
     color: white;
     align-items: center;
     padding: 20px;
+    border: none;
 }
-footer{
-    background-color: rgb(170, 32, 170);
+.btn-book-now {
+    margin-bottom: 40px;
+    border-radius: 40px;
+}
+footer {
+    background-color:rgb(17, 17, 17);
     width: 100%;
-    text-align: center; 
+    text-align: center;
     color: white;
     font-size: 50px;
-    margin-inline-start: 0%;
-
+    margin-top: 30px;
 }
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 2%;
+   }
+   .item {
+    background-color: rgb(170, 32, 170);
+    padding: auto;
+    margin: 30px;
+    border-radius: 60px;
+    text-align: center;
+   }
+   .link{
+    display:inline;
+    padding: 30px;
+    text-decoration-style: double;
+   }
+  
+   
