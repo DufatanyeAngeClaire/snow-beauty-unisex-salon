@@ -11,25 +11,33 @@ a {
     font-size: 20px;
     font-weight: bold;
 }
+a:hover{
+    background-color:rgb(170, 32, 170);
+}
 ul {
     list-style: none;
     justify-content: space-between;
     display: flex;
     text-decoration: solid;
 }
-.well {
-    width: 95%;
-    height: 30%;
-    padding: 20px;
-}
-.welcome {
+ 
+ .welcome {
     margin-top: 30px;
     padding: 20px;
     background-color: whitesmoke;
-    text-align: center,
+    /* text-align: center, */
 }
 .welcome-text {
     font-size: 20px;
+}
+#hero{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 30px;
+}
+#hero-item{
+background-color:whitesmoke;
+gap: 2% ;
 }
 .app {
     margin-top: 30px;
@@ -46,6 +54,11 @@ ul {
     padding: 20px;
     margin-top: 30px;
 }
+.well {
+    width: 95%;
+    height: 30%;
+    padding: 20px;
+} 
 button {
     background-color: rgb(170, 32, 170);
     color: white;
@@ -75,13 +88,14 @@ footer {
     background-color: rgb(170, 32, 170);
     padding: auto;
     margin: 30px;
-    border-radius: 60px;
+    border-radius: 40px;
     text-align: center;
    }
    .link{
     display:inline;
     padding: 30px;
     text-decoration-style: double;
+    font-size: 20px;
    }
   
    
