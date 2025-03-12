@@ -22,8 +22,8 @@ ul {
 }
  
  .welcome {
-    margin-top: 30px;
-    padding: 20px;
+    margin-top: 50px;
+    padding: 50px;
     background-color: whitesmoke;
     /* text-align: center, */
 }
@@ -34,13 +34,22 @@ ul {
     display: grid;
     grid-template-columns: auto auto;
     margin-top: 30px;
+    gap: 20 px;
 }
 #hero-item{
 background-color:whitesmoke;
-gap: 2% ;
+}
+#illa{
+display: grid;
+grid-template-columns: auto auto;
+gap: 30 px;
+}
+#one{
+background-color:  rgb(170, 32, 170);;
 }
 .app {
     margin-top: 30px;
+    text-align: center;
 }
 .download-btn {
     background-color: rgb(170, 32, 170);
