@@ -1,110 +1,131 @@
-*{
-     border-radius: 5px;
+* {
+    border-radius: 5px;
 }
+
 nav {
-    padding: 8px;
-    background-color:rgb(17, 17, 17);
+    padding: 10px;
+    background-color: rgb(17, 17, 17);
 }
+
 a {
     color: white;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
 }
-a:hover{
-    background-color:rgb(170, 32, 170);
+
+a:hover {
+    background-color: rgb(190, 27, 190);
 }
+
 ul {
     list-style: none;
     justify-content: space-between;
     display: flex;
     text-decoration: solid;
+    padding-right: 50px;
 }
- 
- .welcome {
+
+.welcome {
     margin-top: 50px;
     padding: 50px;
     background-color: whitesmoke;
-    /* text-align: center, */
 }
+
 .welcome-text {
     font-size: 20px;
 }
-#hero{
+
+#hero {
     display: grid;
     grid-template-columns: auto auto;
     margin-top: 30px;
-    gap: 20 px;
+    gap: 20px;
+}a
+
+#hero-item {
+    background-color: whitesmoke;
 }
-#hero-item{
-background-color:whitesmoke;
-}
-#illa{
-display: grid;
-grid-template-columns: auto auto;
-gap: 30 px;
-}
-#one{
-background-color:  rgb(170, 32, 170);;
-}
-.app {
+
+#illa {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    margin: 10px;
     margin-top: 30px;
-    text-align: center;
 }
+
+#one {
+    background-color: rgb(190, 27, 190);
+}
+
 .download-btn {
-    background-color: rgb(170, 32, 170);
-    padding: 10px;
-    font-size: 14px;
-    border-radius: 10px;
+    background-color: rgb(190, 27, 190);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 200px;
 }
+.app{
+    margin: 40px;
+}
+
 .snow {
     background-color: whitesmoke;
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
+
 .well {
     width: 95%;
     height: 30%;
     padding: 20px;
-} 
+}
+
 button {
-    background-color: rgb(170, 32, 170);
+    background-color:rgb(190, 27, 190);
     color: white;
     align-items: center;
     padding: 20px;
     border: none;
 }
+
 .btn-book-now {
     margin-bottom: 40px;
     border-radius: 40px;
 }
+
 footer {
-    background-color:rgb(17, 17, 17);
+    background-color: rgb(17, 17, 17);
     width: 100%;
     text-align: center;
     color: white;
     font-size: 50px;
     margin-top: 30px;
 }
+
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 2%;
-   }
-   .item {
-    background-color: rgb(170, 32, 170);
+}
+
+.item {
+    /* background-color: rgb(170, 32, 170); */
     padding: auto;
-    margin: 30px;
-    border-radius: 40px;
+    margin: 20px;
+    border-radius: 30px;
     text-align: center;
-   }
-   .link{
-    display:inline;
-    padding: 30px;
+}
+
+.btn {
+    background-color: none;
+}
+
+.link {
+    display: inline;
+    padding: 20px;
     text-decoration-style: double;
-    font-size: 20px;
-   }
-  
-   
+    font-size: 15px;
+}
