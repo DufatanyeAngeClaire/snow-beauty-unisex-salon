@@ -118,7 +118,7 @@ margin-left: 20px;
     display: inline;
    
 }
-h2{
+h2,h1{
     color: rgb(190, 27, 190);
 }
 
@@ -152,4 +152,43 @@ h2{
     background-color: whitesmoke;
     font-weight:normal;
     font-size: 90%;
+}
+#snow{
+display: grid;
+grid-template-columns: auto auto;
+background-color: whitesmoke;
+}
+#target{
+    text-align: center;
+}
+.hero-contact-us{
+    height: 500px;
+    background-image:url(./image/contact\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.hero-contact-us-text{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 200px;
+}
+#inf{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: large;
+    /* padding-left: 60px; */
+}
+#service{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.service-btn{
+    padding: 20px;
 }
