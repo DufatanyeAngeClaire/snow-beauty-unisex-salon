@@ -96,15 +96,16 @@ footer {
     background-color: rgb(17, 17, 17);
     width: 100%;
     color: white;
-    font-size: 20px;
+    font-size: large;
      margin-top: 30px;
 }
-
+.footer-link{
+    font-weight: normal;
+}
 .container {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 30px;
-   
+    gap: 30px;  
 }
 
 .item{
@@ -117,7 +118,6 @@ margin-left: 20px;
 
 .link {
     display: inline;
-   
 }
 h2,h1{
     color: rgb(190, 27, 190);
@@ -140,7 +140,7 @@ h2,h1{
     color: white;
     font-size: 30px;
     text-align: center;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .about-us-container{
     display: grid;
@@ -152,7 +152,12 @@ h2,h1{
 .about-us-content{
     background-color: whitesmoke;
     font-weight:normal;
-    font-size: 90%;
+    font-weight: xx-large;
+    
+}
+.about-content{
+    padding-left: 50px;
+    padding-right: 10px;
 }
 #snow{
 display: grid;
@@ -161,6 +166,8 @@ background-color: whitesmoke;
 }
 #target{
     text-align: center;
+    padding-left: 50px;
+    padding-right: 10px;
 }
 .hero-contact-us{
     height: 500px;
@@ -175,7 +182,7 @@ background-color: whitesmoke;
     font-weight: bold;
     color: white;
     padding: 200px;
-    font-size: larger;
+    font-size: xx-large;
 }
 #inf{
     display: grid;
