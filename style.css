@@ -254,7 +254,10 @@ table {
     text-align: center;
     height: 200px;
 }
-
+.service-text{
+    color: black;
+    font-weight:normal;
+}
 #service {
     display: grid;
     grid-template-columns: auto auto auto;
