@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Snow Beauty Unisex Salon</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/dc4886d2a4.js" crossorigin="anonymous"></script>
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snow Beauty Unisex Salon</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/dc4886d2a4.js" crossorigin="anonymous"></script>
+</head>
+
 <body>
   <nav>
     <ul>
       <li>
         <a href="./index.html">
-          <img
-            src="image/b.png"
-            alt="Snow logo"
-            style="width: 70px; height: 30 px"
-          />
+          <img src="image/b.png" alt="Snow logo" style="width: 70px; height: 30 px" />
         </a>
       </li>
       <li>
@@ -28,58 +26,105 @@
       <li><a class="menu-item" href="appointment.html">Appoinment</a></li>
     </ul>
   </nav>
-    <h1>Make appointment</h1>
-    <footer>
-      <div class="container">
-        <div class="item">
-         <h2>Contact Information</h2> 
-          <ul class="link">
-            <li>Address: Nankulabye Kampala Uganda</li>
-            <br>
-            <li>
-              Phone Number: +256759872278 <br />
-              +256760743113
-            </li><br>
+  <section class="hero-apt">
+    <h1 style="color: white;">Make <span style="color: black; font-size: larger;">Appointment</span> Basing On Your
+      Favolable Time
 
-            <li>Email: snowbeautyenterprise@gmail.com</li>
-
-          </ul>
-        </div>
-        <div class="item">
-          <h2>Link</h2>
-          <ul class="link">
-            <li><a href="index.html" class="footer-link">Home</a></li>
-            <li><a href="about_us.html" class="footer-link">About Us</a></li>
-            <li><a href="contact_us.html" class="footer-link">Contact Us</a></li>
-            <li><a href="services.html" class="footer-link">Services</a></li>
-            <li><a href="appointment.html" class="footer-link">Appoinment</a></li>
-            <li><a href="" class="btn" class="footer-link">download The App</a></li>
-          </ul>
-        </div>
-        <div class="item">
-          <h2>Social Media</h2>
-          <ul class="link">
-          
-         <br>
-          <i class="fa-brands fa-instagram"></i>
-            <br> <br>
-          <i class="fa-brands fa-x-twitter"></i>
-            <br> <br>
-          <i class="fa-brands fa-tiktok"></i>
-          <br><br>
-          <i class="fa-brands fa-facebook"></i>
-          </ul>
-        </div>
-        <div class="item">
-          <h2>Subscribe</h2>
-          <ul class="link">
-          <li><p>Click The Button Below To Join Us</p></li>
-          <li><button>Subscribe</button></li>
-          <li><p>Are You a Salon Owner if Yes Click The Button Below</p></li>
-           <li> <button>Salon</button></li>
-          </ul>
-        </div>
+  </section>
+  <section class="main-appointment">
+    <div class="content-apt">
+      <h1 style="margin-top: 20px; color: black;">We Have A Wide Range Of Services Please <br>Feel Free To Fill The Form To the fullest</h1>
+    </h1>
+    <form>
+      <div class="form-apt">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
       </div>
-    </footer>
+      <div class="form-apt">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-apt">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="form-apt">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required ><br>
+      </div>
+      <div class="form-apt">
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required>
+      </div>
+      <div class="form-apt">
+        <label for="service">Service:</label>
+        <select id="service" name="service" required>
+          <option value="">Select a service</option><br>
+          <option value="haircut">Hair cutting</option>
+          <option value="hairdress">Hair dressing</option>
+          <option value="color">Hair Coloring</option>
+          <option value="nails">Nail Service</option>
+        </select>
+      </div>
+      <div class="form-apt">
+        <button type="submit" class="button-apt">Schedule Appointment</button>
+      </div>
+      
+</form>
+    </div>
+    
+<div class="content-apt">
+<img src="./image/contact.jpg" alt="Service Image" style="height: 500px; width: 100%;">
+</div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="item">
+       <h2>Contact Information</h2> <br>
+        <ul class="link">
+          <li>Address: Nankulabye Kampala Uganda</li>
+          <br>
+          <li>
+            Phone Number: +256759872278<br />
+          </li><br>
+          <li> Other Number: +256760743113</li>
+          <br>
+          <li>Email: snowbeautyenterprise@gmail.com</li>
+        </ul>
+      </div>
+      <div class="item">
+        <h2>Link</h2>
+        <ul class="link"><br>
+          <li><a href="index.html" class="footer-link">Home</a></li><br>
+          <li><a href="about_us.html" class="footer-link">About Us</a></li><br>
+          <li><a href="contact_us.html" class="footer-link">Contact Us</a></li><br>
+          <li><a href="services.html" class="footer-link">Services</a></li><br>
+        </ul>
+      </div>
+      <div class="item">
+        <h2>Social Media</h2><br>
+        <ul class="link">
+        
+       <a href=""><i class="fa-brands fa-instagram"></i> Instagram</a> 
+          <br> <br>
+        <a href=""><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+          <br> <br>
+        <a href=""><i class="fa-brands fa-tiktok"></i> Ticktock</a>
+        <br><br>
+        <a href=""><i class="fa-brands fa-facebook"></i> Facebook</a>
+        </ul>
+      </div>
+      <div class="item">
+        <h2>Subscribe</h2><br>
+        <ul class="link">
+        <li><p>Click The Button Below To Join Us</p></li><br>
+        <li><button class="footer-btn">Subscribe</button></li><br>
+        <li><p>Are You a Salon Owner if Yes Click The Button Below</p></li><br>
+         <li> <button class="footer-btn">Salon</button></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
