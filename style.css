@@ -257,6 +257,7 @@ table {
 .service-text{
     color: black;
     font-weight:normal;
+    padding-top: 20PX;
 }
 #service {
     display: grid;
